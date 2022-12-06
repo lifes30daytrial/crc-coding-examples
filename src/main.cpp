@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include "examples.h"
 
 /////
 // For instalattion, upgrading, documentations and tutorials, check out website!

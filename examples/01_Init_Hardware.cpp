@@ -11,6 +11,7 @@
 
 // "main.h" is a file that includes all PROS libraries for you to use.
 #include "main.h"
+#include "examples.h"
 
 /*
  * Initializing Sensors and Mechanisms:
@@ -34,4 +35,6 @@
 #define ENCODER pros::E_MOTOR_ENCODER_COUNTS
 /* This is the unit that the motor encoder will return. This can be in degrees, revolutions, or counts.                                           */
 
-pros::Motor motor_name(PORT_NUMBER, GEARSET, REVERSED, ENCODER);
+void example_one() {
+    pros::Motor motor_name(PORT_NUMBER, GEARSET, REVERSED, ENCODER);
+}
